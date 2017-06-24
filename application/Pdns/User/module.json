@@ -1,0 +1,12 @@
+{
+  "module": {
+    "name": "Pdns_User",
+    "version": "1.0.0",
+    "active": true,
+    "identifier": "user",
+    "router": {
+      "class": "Pdns\\User\\Controller",
+      "frontname": "user"
+    }
+  }
+}

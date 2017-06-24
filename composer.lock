@@ -1,0 +1,389 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a265160eb7019d7e7f25e7a335a4f07a",
+    "content-hash": "937c6a23d950ef7a1cfdcf47f8ec747f",
+    "packages": [
+        {
+            "name": "jcode/framework",
+            "version": "dev-development",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework.git",
+                "reference": "7cd731c3ba58505db52e0d41f5e047cacdddf2e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework/zipball/7cd731c3ba58505db52e0d41f5e047cacdddf2e4",
+                "reference": "7cd731c3ba58505db52e0d41f5e047cacdddf2e4",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework-cache": "0.0.*",
+                "jcode/framework-data": "0.0.*",
+                "jcode/framework-dbresource": "0.0.*",
+                "jcode/framework-eventhandler": "0.0.*",
+                "jcode/framework-layout": "0.0.*",
+                "jcode/framework-router": "0.0.*",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework",
+            "time": "2017-06-24 19:47:22"
+        },
+        {
+            "name": "jcode/framework-cache",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-cache.git",
+                "reference": "cbe23d857b3ce36e19401969b59f6959cc32fa1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-cache/zipball/cbe23d857b3ce36e19401969b59f6959cc32fa1c",
+                "reference": "cbe23d857b3ce36e19401969b59f6959cc32fa1c",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "Caching module for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-cache",
+            "time": "2017-05-13 11:39:16"
+        },
+        {
+            "name": "jcode/framework-cms",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-cms.git",
+                "reference": "be6f3852023c153dc6d12ddba1b92ea159aab7a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-cms/zipball/be6f3852023c153dc6d12ddba1b92ea159aab7a6",
+                "reference": "be6f3852023c153dc6d12ddba1b92ea159aab7a6",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Cms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "CMS module for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-cms",
+            "time": "2017-05-13 11:58:26"
+        },
+        {
+            "name": "jcode/framework-data",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-data.git",
+                "reference": "748e24aeb7094bdf3781e2adfb9fcaa24981680f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-data/zipball/748e24aeb7094bdf3781e2adfb9fcaa24981680f",
+                "reference": "748e24aeb7094bdf3781e2adfb9fcaa24981680f",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Data\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "Data/form module for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-data",
+            "time": "2017-05-13 12:01:46"
+        },
+        {
+            "name": "jcode/framework-dbadapter-mysql",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-dbadapter-mysql.git",
+                "reference": "0fd5753db66c595d36e7dfeb878ee94074012084"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-dbadapter-mysql/zipball/0fd5753db66c595d36e7dfeb878ee94074012084",
+                "reference": "0fd5753db66c595d36e7dfeb878ee94074012084",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "jcode/framework-dbresource": "*",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Db\\Adapter\\Mysql\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "MySQL adapter for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-dbadapter-mysql",
+            "time": "2017-05-13 12:11:37"
+        },
+        {
+            "name": "jcode/framework-dbresource",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-dbresource.git",
+                "reference": "d2808b41e62c575497ba7a345b164706567a9d6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-dbresource/zipball/d2808b41e62c575497ba7a345b164706567a9d6b",
+                "reference": "d2808b41e62c575497ba7a345b164706567a9d6b",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Db\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "Database resource module for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-dbresource",
+            "time": "2017-05-13 12:15:18"
+        },
+        {
+            "name": "jcode/framework-eventhandler",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-eventhandler.git",
+                "reference": "5c394b3b0c36a9b7a3758b5b635da17c33407d40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-eventhandler/zipball/5c394b3b0c36a9b7a3758b5b635da17c33407d40",
+                "reference": "5c394b3b0c36a9b7a3758b5b635da17c33407d40",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Event\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "Event handler for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-eventhandler",
+            "time": "2017-06-24 20:10:47"
+        },
+        {
+            "name": "jcode/framework-layout",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-layout.git",
+                "reference": "2493b146290bc1498698cd13af3e9902d5dbc185"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-layout/zipball/2493b146290bc1498698cd13af3e9902d5dbc185",
+                "reference": "2493b146290bc1498698cd13af3e9902d5dbc185",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Layout\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "Layout module for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-layout",
+            "time": "2017-05-13 12:26:10"
+        },
+        {
+            "name": "jcode/framework-router",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JBleijenberg/jcode-framework-router.git",
+                "reference": "07e6edb2707598ce2738e7fd5dfad10b27d7465b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JBleijenberg/jcode-framework-router/zipball/07e6edb2707598ce2738e7fd5dfad10b27d7465b",
+                "reference": "07e6edb2707598ce2738e7fd5dfad10b27d7465b",
+                "shasum": ""
+            },
+            "require": {
+                "jcode/framework": "dev-development",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcode\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Bleijenberg",
+                    "email": "jeroen@jcode.nl",
+                    "homepage": "http://jcode.nl",
+                    "role": "DevOPS Engineer"
+                }
+            ],
+            "description": "Router module for J!Code PHP framework",
+            "homepage": "https://github.com/JBleijenberg/jcode-framework-router",
+            "time": "2017-06-24 20:14:08"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "jcode/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,22 @@
+{
+  "application": {
+    "layout": "pdns",
+    "unsecure_base_url": "http://dns.jcode.nl/",
+    "secure_base_url": "https://dns.jcode.nl/",
+    "use_ssl": false,
+    "force_ssl": false,
+    "title": "PowerDNS MVC Skin",
+    "default_route": "user/account/login/",
+    "timezone": "Europe/Amsterdam",
+    "database": {
+      "adapter": "mysql",
+      "host": "{{MYSQL_HOST}}",
+      "name": "{{MYSQL_DBNAME}}",
+      "user": "{{MYSQL_USER}}",
+      "password": "{{MYSQL_PASSWD}}"
+    },
+    "cache": {
+      "enabled": false
+    }
+  }
+}

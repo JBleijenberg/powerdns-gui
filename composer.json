@@ -1,0 +1,23 @@
+{
+    "name": "jcode/powerdns-gui",
+    "type": "project",
+    "require": {
+        "jcode/framework": "dev-development",
+        "jcode/framework-cms": "*",
+        "jcode/framework-dbadapter-mysql": "*",
+        "php": ">=7.0.0",
+        "jcode/framework-eventhandler": "0.0.3"
+    },
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "Jeroen Bleijenberg",
+            "email": "jeroen@jcode.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pdns\\User\\": "application/Pdns/User"
+        }
+    }
+}
